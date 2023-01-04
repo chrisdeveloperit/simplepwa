@@ -1,10 +1,10 @@
 {
-	"name": "Simple PWA",
-	"short_name": "Simple PWA",
+	"name": "Wayne Collier Music",
+	"short_name": "Wayne Collier Music",
 	"display": "standalone",
 	"start_url": "./?utm_source=pwa_install",
 	"scope": ".",
-	"theme_color": "#000",
+	"theme_color": "#333",
 	"background_color": "#000",
 	"icons":[
         {
