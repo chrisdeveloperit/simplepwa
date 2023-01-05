@@ -39,16 +39,16 @@ reverseButton2.addEventListener("click", (e) => {
 //   0
 // );
 
-t1.to(
-  ".screen-1 .album-title",
-  {
-    ease: "power1.inOut",
-    yPercent: -200,
-    duration: 0.5,
-    opacity: 0,
-  },
-  0
-);
+// t1.to(
+//   ".screen-1 .album-title",
+//   {
+//     ease: "power1.inOut",
+//     yPercent: -200,
+//     duration: 0.5,
+//     opacity: 0,
+//   },
+//   0
+// );
 
 t1.to(
   ".album-row",
@@ -64,27 +64,26 @@ t1.to(
   ".albums-1",
   {
     ease: "power1.inOut",
-    y: -100,
+     y: -20,
+    height: 500,
   },
   0.1
 );
 
-t1.to(".albums-1", {
-  ease: "power1.inOut",
-  height: 100,
-});
 
 t1.to(
   ".albums-1 img",
   {
     ease: "power1.inOut",
-    height: 100,
+    height: 300,
+    opacity: 0.3,
   },
-  0.5
+  0.3
 );
 
 t1.to(".album-release", {
   ease: "power1.inOut",
+  y: -375,
   opacity: 1,
 });
 
@@ -93,7 +92,7 @@ t1.to(
   {
     ease: "back.inOut(1.7)",
     x: 124,
-    y:50,
+    y:130,
     opacity: 1,
   },
   1
@@ -103,7 +102,7 @@ t1.to(
   ".album-desc",
   {
     ease: "power1.inOut",
-    y: -210,
+    y: -695,
     opacity: 1,
   },
   1
@@ -113,7 +112,7 @@ t1.to(
   ".play-button",
   {
     scale: 1,
-    y: 50,
+    y: 120,
     ease: "bounce.out",
     duration: 1,
   },
@@ -124,7 +123,7 @@ t1.to(
   ".back-button",
   {
     ease: "power1.inOut",
-    y: -150,
+    y: -95,
     opacity: 1,
   },
   1.5
@@ -135,7 +134,7 @@ t1.to(
 t2.to(
   ".albums-1",
   {
-    height: 100,
+    height: 500,
     ease: "power1.inOut",
   },
   0
@@ -144,7 +143,7 @@ t2.to(
 t2.to(
   ".albums-1 img",
   {
-    height: 72,
+    height: 300,
     ease: "power1.inOut",
   },
   0
@@ -171,7 +170,7 @@ t2.to(
 t2.to(
   ".back-button",
   {
-    y: 244,
+   y: -85,
     ease: "power1.inOut",
   },
   0
@@ -198,8 +197,8 @@ t2.to(
 
 t2.to(".song-1", {
   ease: "power1.inOut",
-  x: 342,
-  y: 80,
+  x: 532,
+  y: 85,
   opacity: 1,
 });
 
@@ -207,8 +206,8 @@ t2.to(
   ".song-2",
   {
     ease: "power1.inOut",
-    x: 342,
-    y: 80,
+    x: 532,
+    y: 85,
     opacity: 1,
   },
   0.6
@@ -218,8 +217,8 @@ t2.to(
   ".song-3",
   {
     ease: "power1.inOut",
-    x: 342,
-    y: 80,
+    x: 532,
+    y: 85,
     opacity: 1,
   },
   0.7
@@ -229,8 +228,8 @@ t2.to(
   ".song-4",
   {
     ease: "power1.inOut",
-    x: 342,
-    y: 80,
+    x: 532,
+    y: 85,
     opacity: 1,
   },
   0.8
@@ -240,8 +239,8 @@ t2.to(
   ".song-5",
   {
     ease: "power1.inOut",
-    x: 342,
-    y: 80,
+    x: 532,
+    y: 85,
     opacity: 1,
   },
   0.9
@@ -251,8 +250,8 @@ t2.to(
   ".song-6",
   {
     ease: "power1.inOut",
-    x: 342,
-    y: 80,
+    x: 532,
+    y: 85,
     opacity: 1,
   },
   1
@@ -262,8 +261,8 @@ t2.to(
   ".song-7",
   {
     ease: "power1.inOut",
-    x: 342,
-    y: 80,
+    x: 532,
+    y: 85,
     opacity: 1,
   },
   1.1
@@ -273,8 +272,8 @@ t2.to(
   ".song-8",
   {
     ease: "power1.inOut",
-    x: 342,
-    y: 80,
+    x: 532,
+    y: 85,
     opacity: 1,
   },
   1.2
@@ -284,7 +283,8 @@ t2.to(
   ".back-button-2",
   {
     ease: "power1.inOut",
-    y: -20,
+    y: -120,
+    x: 100,
     opacity: 1,
   },
   1.5
